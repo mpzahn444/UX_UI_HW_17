@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    background-color: #095446;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    border-bottom-color: #1F2C41;
+    border-bottom-style: solid;
+}
+
+#logo {
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px; 
+}
+nav {
+    float: right;
+    padding-right: 25px;
+} 
+ul{
+    width: auto;
+    float: right;
+}
+li {
+    display: inline-block;
+    vertical-align: center;
+    padding: 50px;
+    color: white;
+    font-size: 24px;
+}
+.content {
+    width: 100%;
+    height: 867px;
+    background-color: #095446;
+    position: relative;
+    border-bottom-color: #1F2C41;
+    border-bottom-style: solid;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+    z-index: 3;
+    float: left;
+    padding-top: 15%;
+    padding-left: 15%;
+    position: absolute;
+}
+p {
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    float: left;
+    z-index: 3;
+    padding-top: 21%;
+    position: absolute;
+    max-width: 600px;
+    padding-left: 15%;
+}
+#matt {
+    z-index: 3;
+    width: 600px;
+    height: auto;
+    padding-top: 10%;
+    position: absolute;
+    right: 200px;
+}
+button:hover {
+    background-color: #FFBA00;
+    border-color: #095446;
+}
+button {
+    width: 200px;
+    height: 55px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 600px;
+    left: 350px;
+    border-radius: 12px;
+    
+}
+.projectsContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    background-color: white;
+}
+.projectlink {
+    width: 100px;
+    padding-bottom: 70px;
+    position: relative;
+    display: flex;
+    top: -30px;
+    left: 160px;
+    z-index: 99;
+
+}
+footer {
+    background-color: #095446;
+    width: 100%;
+    position: relative;
+}
+.footerlogo {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
